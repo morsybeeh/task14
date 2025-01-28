@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contaner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.circle {
+  background-color: white;
+  color: black;
+  box-shadow: 2px 2px 15px 5px black;
+  border-radius: 50%;
+  padding: 30px;
+  text-align: center;
+  margin: 10px;
+  width: 200px;
+}
+.circle:hover {
+  background-color: black;
+  color: aliceblue;
+  box-shadow: 2px 2px 15px 10px black;
+  transition: all 0.5s ease-in-out;
+}
+.section {
+  text-transform: capitalize;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  margin: 35px;
+}
+.icon {
+  font-size: 20px;
+  /* margin: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+i {
+  border: 2px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+i:hover {
+  background-color: black;
+  color: white;
+  box-shadow: 2px 2px 15px black;
+  transition: all 0.5s ease-in-out;
+}
